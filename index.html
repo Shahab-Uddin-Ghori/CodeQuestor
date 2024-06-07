@@ -4,15 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quest</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- // landing page main Div  -->
     <div id="landingPage">
-        <!-- /. logo Div  -->
-         <div id="logoContainer">
-            <img src="./img/logo.png" alt="CodeQuest" id="logo" >
-         </div>
+      <!-- /. logo Div  -->
+      <div id="logoContainer">
+        <img src="./img/logo.png" alt="CodeQuest" id="logo" />
+      </div>
+
+      <!-- // centeral Div have info on left and login form on right main div of centeral have bg image and display flex property  -->
+      <!-- this div created only for child div centerd -->
+      <div id="mainContentLandingPage">
+        <div id="mainContent">
+          <!-- // left info sec  -->
+          <div id="infoSec">
+            <!-- //info heading and para  -->
+            <h1>
+              CodeQuest <br />
+              Challenge Your Coding Skills!
+            </h1>
+            <p>
+              Where we challenge your coding skills! Our web app offers a
+              curated selection of quizzes and challenges designed to enhance
+              your programming proficiency. Whether you're a beginner or an
+              expert, CodeQuest provides a platform to sharpen your coding
+              abilities across various languages and concepts. Join us and
+              embark on a journey of learning and skill-building today.
+            </p>
+            <!-- // form for texarea -->
+            <!-- // label for suggestions -->
+            <label for="suggestions">Have a suggestion?</label>
+            <!-- texarea -->
+            <!-- Textarea for suggestions -->
+            <textarea
+              name="suggestions"
+              id="suggestions"
+              placeholder="Share your ideas..."
+            ></textarea>
+            <!-- // btn div  -->
+            <div id="suggestionsBtnContainer">
+              <button type="submit" id="suggestionsBtn">Submit</button>
+            </div>
+          </div>
+          <!-- // right sec form sec -->
+          <div id="formSec">
+            <!-- // user data form -->
+            <form action="#" method="get" id="userData">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="rollNum">Roll Num</label>
+                <input type="number" name="rollNum" id="rollNum">
+                <label for="batch">batch</label>
+                <input type="text" name="batch" id="batch">
+                <label for="instructor">Instructor</label>
+                <Select>
+                    <option value="selectYourInstructor" selected>Select Your Instructor</option>
+                    <option value="Sir Shehzad">Sir Shehzad</option>
+                    <option value="Sir Shehzad">Sir Ghous</option>
+                    <option value="Sir Shehzad">Sir Saad</option>
+                    <option value="Sir Shehzad">Sir Bilal</option>
+                </Select>
+                <h1>Select your Quiz</h1>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- //custom js  -->
   </body>
