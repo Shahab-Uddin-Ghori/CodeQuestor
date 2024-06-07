@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* // landing Page Div Bg img setup  */
+#landingPage{
+    width: 100%;
+    height: 100vh;
+    background: rgb(15,6,66);
+background: -moz-linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
+background: linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f0642",endColorstr="#68c9ff",GradientType=1);
+}
+/* // logo Div  */
+#logoContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    padding: 1rem;
+}
+/* // logo  */
+#logo{
+    margin-left: 2rem;
+    width: 12rem;
+}
+/* // logo name  */
+#logoContainer span{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+}
