@@ -4,129 +4,145 @@
   src: url(./SFPRODISPLAYREGULAR.OTF);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
   font-family: sf-Pro;
   letter-spacing: 1px;
 }
 
 /* // landing Page Div Bg img setup  */
-#landingPage{
-    width: 100%;
-    height: 100vh;
-    background: rgb(15,6,66);
-background: -moz-linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
-background: linear-gradient(90deg, rgba(15,6,66,1) 0%, rgba(104,201,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f0642",endColorstr="#68c9ff",GradientType=1);
+#landingPage {
+  width: 100%;
+  height: 100vh;
+  background: rgb(15, 6, 66);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(15, 6, 66, 1) 0%,
+    rgba(104, 201, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(15, 6, 66, 1) 0%,
+    rgba(104, 201, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(15, 6, 66, 1) 0%,
+    rgba(104, 201, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f0642",endColorstr="#68c9ff",GradientType=1);
 }
 /* // logo Div  */
-#logoContainer{
-    width: 100%;
-    /* background-color: red; */
-    padding: 1rem;
+#logoContainer {
+  width: 100%;
+  /* background-color: red; */
+  padding: 1rem;
 }
 /* // logo  */
-#logo{
-    margin-left: 2rem;
-    width: 12rem;
+#logo {
+  margin-left: 2rem;
+  width: 12rem;
 }
 /* // logo name  */
-#logoContainer span{
-    font-size: 2rem;
-    color: #fff;
-    font-weight: 600;
+#logoContainer span {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
 }
 
 /* <!-- // centeral Div have info on left and login form on right main div of centeral have bg image and display flex property  --> */
 #mainContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #mainContentLandingPage::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(./img/square-pattern.png);
-    background-size: cover;
-    mix-blend-mode: multiply;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/square-pattern.png);
+  background-size: cover;
+  mix-blend-mode: multiply;
 }
-
 
 /* // main content left info on right form  */
-#mainContent{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 110rem;
-    height: 40rem;
-    /* background-color: red; */
+#mainContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 110rem;
+  height: 40rem;
+  /* background-color: red; */
 }
 /* // info sec main content  */
-#infoSec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    padding-left: 1rem;
-    width: 60rem;
-    height: 36rem;
-    /* background-color: red; */
+#infoSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 1rem;
+  width: 60rem;
+  height: 36rem;
+  /* background-color: red; */
 }
 /* // info h1  */
 #infoSec h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 /* info para  */
-#infoSec p{
-    line-height: 24px;
-    font-size: 1.2rem;
+#infoSec p {
+  line-height: 24px;
+  font-size: 1.2rem;
 }
 /* info textarea for suggestions  */
-#suggestions{
-    width: 40rem;
-    height: 10rem;
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    font-size: 1.5rem;
-    color: black !important;
+#suggestions {
+  width: 40rem;
+  height: 10rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: black !important;
 }
 /* // label  */
-label{
-    font-size: 1.5rem;
+label {
+  font-size: 1.5rem;
 }
 /* .. suggestions btn container  */
-#suggestionsBtnContainer{
-    text-align: center;
-    width: 40rem;
+#suggestionsBtnContainer {
+  text-align: center;
+  width: 40rem;
 }
 /* suggestion btn  */
 #suggestionsBtn {
-    width: 8rem;
+  width: 8rem;
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
   border: 0;
   border-radius: 6px;
-  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
+  font-family: "JetBrains Mono", monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -137,21 +153,23 @@ label{
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow 0.15s, transform 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  will-change: box-shadow, transform;
   font-size: 18px;
 }
 
 #suggestionsBtn:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
 #suggestionsBtn:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -162,44 +180,85 @@ label{
 
 /* // right sec form sec  */
 #formSec {
-    width: 30rem;
-    height: 36rem;
-    background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('your-background-image.jpg');
-    background-blend-mode: overlay; /* Ensures blending with the background image */
-    backdrop-filter: blur(10px); /* Applies blur effect */
-    border-radius: 10px; /* Optional: Add border radius for a smoother look */
+  width: 30rem;
+  height: 36rem;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("your-background-image.jpg");
+  background-blend-mode: overlay; /* Ensures blending with the background image */
+  backdrop-filter: blur(10px); /* Applies blur effect */
+  border-radius: 10px; /* Optional: Add border radius for a smoother look */
 }
-#userData{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    padding: 1rem;
+#userData {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem;
 }
 #userData input,
 select,
- select option  {
-    color: black;
-    height: 2.5rem;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    padding: .5rem;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    transition: .3s ease;
+select option {
+  color: black;
+  height: 2.5rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
 }
 #userData input:focus,
 select:focus,
- select option:focus  {
-border: 2px solid rgba(10, 102, 223, 0.61);
-transform: scale(1,1.2);
+select option:focus {
+  border: 2px solid rgba(10, 102, 223, 0.61);
+  transform: scale(1, 1.2);
 }
-#userData h1{
-    text-align: center;
-    margin-top: 1rem;
+#userData h1 {
+  text-align: center;
+  margin-top: .5rem;
 }
 
-#userData label:hover{
-    cursor: pointer;
-    transform: scale(1,.91);
+#userData label:hover {
+  cursor: pointer;
+  transform: scale(1, 0.91);
+}
+/* // icons for course select  */
+#iconOfSelectCourse {
+  display: flex;
+  justify-content: space-around;
+}
+/* // icons css */
+.bx {
+  font-size: 4rem;
+color: rgb(0, 102, 255);
+}
+.bx:hover {
+  cursor: pointer;
+}
+
+.bxl-html5 {
+  color: red;
+}
+
+.bxl-javascript {
+  color: rgb(255, 208, 0);
+}
+#typeScript {
+  color: rgb(0, 102, 255);
+}
+.bxl-react{
+  color: rgb(78, 160, 255);
+}
+.bxl-c-plus-plus{
+  color: rgb(6, 89, 184);
+}
+/* // checkbox for icons of course  */
+#checkBoxForIcons {
+  display: flex;
+  justify-content: space-around;
+}
+/* // form btn  */
+#formBtnContainer{
+    display: flex;
+    justify-content: center;
 }

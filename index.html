@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Quest</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -53,25 +54,45 @@
             <!-- // user data form -->
             <form action="#" method="get" id="userData">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <label for="rollNum">Roll Num</label>
-                <input type="number" name="rollNum" id="rollNum">
+                <input type="number" name="rollNum" id="rollNum" required>
                 <label for="batch">batch</label>
-                <input type="text" name="batch" id="batch">
+                <input type="text" name="batch" id="batch" required>
                 <label for="instructor">Instructor</label>
-                <Select>
-                    <option value="selectYourInstructor" selected>Select Your Instructor</option>
-                    <option value="Sir Shehzad">Sir Shehzad</option>
-                    <option value="Sir Shehzad">Sir Ghous</option>
-                    <option value="Sir Shehzad">Sir Saad</option>
-                    <option value="Sir Shehzad">Sir Bilal</option>
-                </Select>
+                <select id="instructorSelect" required>
+                  <option value="" disabled selected hidden>Select Your Instructor</option>
+                  <option value="Sir Shehzad">Sir Shehzad</option>
+                  <option value="Sir Ghous">Sir Ghous</option>
+                  <option value="Sir Saad">Sir Saad</option>
+                  <option value="Sir Bilal">Sir Bilal</option>
+                </select>
                 <h1>Select your Quiz</h1>
+                <div id="iconOfSelectCourse">
+                  <label for="html5"><i class='bx bxl-html5'></i></label>
+                  <label for="css3"><i class='bx bxl-css3'></i></label>
+                  <label for="jsIcon"><i class='bx bxl-javascript'></i></label>
+                  <label for="typeScript"><i class='bx bxl-typescript'></i></label>
+                  <label for="react"><i class='bx bxl-react'></i></label>
+                  <label for="cpp"><i class='bx bxl-c-plus-plus'></i></label>
+                </div>
+                <div id="checkBoxForIcons">
+                  <input type="radio" id="html5" name="course" required>
+                  <input type="radio" id="css3" name="course">
+                  <input type="radio" id="jsIcon" name="course">
+                  <input type="radio" id="typeScript" name="course">
+                  <input type="radio" id="react" name="course">
+                  <input type="radio" id="cpp" name="course">
+                </div>
+                <div id="formBtnContainer">
+                  <button type="submit" id="suggestionsBtn">Submit</button>
+                </div>
             </form>
           </div>
         </div>
       </div>
     </div>
     <!-- //custom js  -->
+     <script src="script.js"></script>
   </body>
 </html>
