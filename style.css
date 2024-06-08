@@ -16,7 +16,6 @@
 
 /* // landing Page Div Bg img setup  */
 #landingPage {
-  width: 100%;
   height: 100vh;
   background: rgb(15, 6, 66);
   background: -moz-linear-gradient(
@@ -118,7 +117,6 @@
   padding-top: 1rem;
   font-size: 1.5rem;
   color: black !important;
-  
 }
 /* // label  */
 label {
@@ -222,7 +220,7 @@ select option:focus {
 }
 #userData h1 {
   text-align: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #userData label:hover {
@@ -237,7 +235,7 @@ select option:focus {
 /* // icons css */
 .bx {
   font-size: 4rem;
-color: rgb(0, 102, 255);
+  color: rgb(0, 102, 255);
 }
 .bx:hover {
   cursor: pointer;
@@ -253,10 +251,10 @@ color: rgb(0, 102, 255);
 #typeScript {
   color: rgb(0, 102, 255);
 }
-.bxl-react{
+.bxl-react {
   color: rgb(78, 160, 255);
 }
-.bxl-c-plus-plus{
+.bxl-c-plus-plus {
   color: rgb(6, 89, 184);
 }
 /* // checkbox for icons of course  */
@@ -265,7 +263,23 @@ color: rgb(0, 102, 255);
   justify-content: space-around;
 }
 /* // form btn  */
-#formBtnContainer{
-    display: flex;
-    justify-content: center;
+#formBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.801);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+footer p a {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
