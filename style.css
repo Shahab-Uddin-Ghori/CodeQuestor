@@ -16,7 +16,7 @@
 
 /* // landing Page Div Bg img setup  */
 #landingPage {
-  height: 100vh;
+  height: 100dvh;
   background: rgb(15, 6, 66);
   background: -moz-linear-gradient(
     90deg,
