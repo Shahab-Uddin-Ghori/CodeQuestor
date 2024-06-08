@@ -46,6 +46,8 @@
 #logo {
   margin-left: 2rem;
   width: 12rem;
+  transform: translateX(-100%);
+  transition: opacity 1.5s ease, transform 1.5s ease;
 }
 /* // logo name  */
 #logoContainer span {
@@ -92,6 +94,8 @@
   padding-left: 1rem;
   width: 60rem;
   height: 36rem;
+  transform: translateX(100%);
+  transition: opacity 1s ease, transform 1s ease;
   /* background-color: red; */
 }
 /* // info h1  */
@@ -114,6 +118,7 @@
   padding-top: 1rem;
   font-size: 1.5rem;
   color: black !important;
+  
 }
 /* // label  */
 label {
@@ -187,6 +192,8 @@ label {
   background-blend-mode: overlay; /* Ensures blending with the background image */
   backdrop-filter: blur(10px); /* Applies blur effect */
   border-radius: 10px; /* Optional: Add border radius for a smoother look */
+  transform: translateY(100%);
+  transition: opacity 2s ease, transform 2s ease;
 }
 #userData {
   display: flex;
