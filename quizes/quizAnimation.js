@@ -35,8 +35,8 @@ let maxLocation = numOfPapers + 1;
 //for book open
 function openBook() {
   book.style.transform = "translate(50%)";
-  preBtn.style.transform = "translateX(-180px)";
-  forBtn.style.transform = "translateX(180px)";
+  preBtn.style.transform = "translateX(-270px)";
+  forBtn.style.transform = "translateX(270px)";
 }
 
 //for close book
