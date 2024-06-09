@@ -136,3 +136,47 @@ button:hover {
 .flipped .back{
 transform: rotateY(-180deg);
 }
+
+/* //// css for cover for each page quiz */
+/* // html 5  */
+#p1 .front .html{
+    background-image: url(../img/Html\ Quiz.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* // css3  */
+#p1 .front .css3{
+    background-image: url(../img/css3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* // cpp  */
+#p1 .front .cpp{
+    background-image: url(../img/cpp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* // js  */
+#p1 .front .js{
+    background-image: url(../img/js.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* // Ts  */
+#p1 .front .ts{
+    background-image: url(../img/ts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* // react  */
+#p1 .front .react{
+    background-image: url(../img/react.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
