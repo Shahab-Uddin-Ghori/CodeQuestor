@@ -10,6 +10,26 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+/// quizSec animation
+document.addEventListener("DOMContentLoaded", function () {
+    const iconset = document.getElementById("quizSec");
+
+    // Set initial opacity
+    iconset.style.opacity = 0.5;
+
+    // Trigger the animation
+    requestAnimationFrame(() => {
+        iconset.style.transform = "translateX(0)";
+        
+        // Use a timeout to delay the opacity transition
+        setTimeout(() => {
+            iconset.style.transition = "opacity 0.5s ease";
+            iconset.style.opacity = 1;
+        }, 1500); //  1.5 seconds
+    });
+});
+
+
 // book animation fillped by btn
 const preBtn = document.querySelector("#preBtn");
 const forBtn = document.querySelector("#forBtn");

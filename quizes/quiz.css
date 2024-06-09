@@ -9,6 +9,9 @@
   height: 42rem;
   /* background-color: red;   */
   gap: 1rem;
+  transform: translateY(100%);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+
 }
 
 /* // book styling  */
