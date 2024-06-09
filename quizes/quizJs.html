@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code Quest/Quiz Js</title>
+    <title>Code Quest/Quiz JavaScript</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="icon" href="../img/titleLogo.png" />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="quiz.css" />
   </head>
   <body>
     <!-- // landing page main Div  -->
@@ -18,19 +19,110 @@
       <div id="logoContainer">
         <img src="../img/logo.png" alt="CodeQuest" id="logo" />
       </div>
+      <!-- // logo side ended  -->
 
-      <!-- // centeral Div have info on left and login form on right main div of centeral have bg image and display flex property  -->
-      <!-- this div created only for child div centerd -->
-      <div id="mainContentLandingPage"></div>
-      <footer>
-        <p>Develop by Shahab Uddin Ghori</p>
-        <p>
-          Check my LinkTree &nbsp;&nbsp;<a
-            href="https://shahab-uddin-ghori.github.io/Link-Tree/"
-            >Chick here!</a
-          >
-        </p>
-      </footer>
+      <!-- // main content of page  -->
+       <div id="quizHeading">
+        <p id="htmlChangingText">dasdad</p>
+       </div>
+      <div id="quizSec">
+        <!-- // previous btn  -->
+        <button id="preBtn">
+          <i class="bx bxs-left-arrow"></i>
+        </button>
+
+        <!-- // quizContent area book  -->
+        <div id="book" class="book">
+          <!-- //////////////////////////////page 1 ////////////////////////////////-->
+          <div id="p1" class="paper">
+            <!-- //front page  -->
+            <div class="front">
+              <div id="f1" class="frontContent">
+                <p>front content f1</p>
+              </div>
+            </div>
+            <!-- // backpage  -->
+            <div class="back">
+              <div id="b1" class="backContent">
+                <p>backContent b1</p>
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////page 1  end////////////////////////////////-->
+          <!-- //////////////////////////////page 2 ////////////////////////////////-->
+          <div id="p2" class="paper">
+            <!-- //front page  -->
+            <div class="front">
+              <div id="f2" class="frontContent">
+                <p>front content f2</p>
+              </div>
+            </div>
+            <!-- // backpage  -->
+            <div class="back">
+              <div id="b2" class="backContent">
+                <p>backContent b2</p>
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////page 2  end////////////////////////////////-->
+          <!-- //////////////////////////////page 3 ////////////////////////////////-->
+          <div id="p3" class="paper">
+            <!-- //front page  -->
+            <div class="front">
+              <div id="f3" class="frontContent">
+                <p>front content f3</p>
+              </div>
+            </div>
+            <!-- // backpage  -->
+            <div class="back">
+              <div id="b3" class="backContent">
+                <p>backContent b3</p>
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////page 3  end////////////////////////////////-->
+          <!-- //////////////////////////////page 4 ////////////////////////////////-->
+          <div id="p4" class="paper">
+            <!-- //front page  -->
+            <div class="front">
+              <div id="f4" class="frontContent">
+                <p>front content f4</p>
+              </div>
+            </div>
+            <!-- // backpage  -->
+            <div class="back">
+              <div id="b4" class="backContent">
+                <p>backContent b4</p>
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////page 4  end////////////////////////////////-->
+          <!-- //////////////////////////////page 5 ////////////////////////////////-->
+          <div id="p5" class="paper">
+            <!-- //front page  -->
+            <div class="front">
+              <div id="f5" class="frontContent">
+                <p>front content f5</p>
+              </div>
+            </div>
+            <!-- // backpage  -->
+            <div class="back">
+              <div id="b5" class="backContent">
+                <p>backContent b5</p>
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////page 5  end////////////////////////////////-->
+        </div>
+        <!-- // quizContent area book  -->
+
+        <!-- // forward btn -->
+        <button id="forBtn">
+          <i class="bx bxs-right-arrow"></i>
+        </button>
+      </div>
+
+      <!-- // main content of page End -->
     </div>
     <!-- // typed js  -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

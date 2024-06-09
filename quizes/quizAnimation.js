@@ -10,6 +10,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// for heading Text
+document.addEventListener("DOMContentLoaded", function () {
+    const iconset = document.getElementById("htmlChangingText");
+  
+    // Trigger the animation
+    requestAnimationFrame(() => {
+      iconset.style.opacity = 1;
+      iconset.style.transform = "translateX(0)";
+    });
+  });
+
 /// quizSec animation
 document.addEventListener("DOMContentLoaded", function () {
     const iconset = document.getElementById("quizSec");
@@ -28,6 +39,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 1500); //  1.5 seconds
     });
 });
+
+/*==================== typed js ====================*/
+//  changing Text for Coding Quiz.
+const typed1 = new Typed('#htmlChangingText', {
+    strings: ['','Challenge Your Skills!','Keep Calm and Think', 'Select Right Option'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    backDelay: 3000,
+    loop: true
+});
+
 
 
 // book animation fillped by btn
