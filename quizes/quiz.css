@@ -30,7 +30,7 @@
 .book {
   position: relative;
   width: 500px;
-  height: 650px;
+  height: 660px;
   transition: transform .5s;
   }
   /* // paper style  */
@@ -58,12 +58,12 @@
 .front {
   z-index: 1;
   backface-visibility: hidden;
-  border-left: 4px solid #67C7FD;
+  border-left: 4px solid rgb(228, 213, 0);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.back {
-  z-index: 0;
-  border-left: 4px solid #67C7FD;
+  }
+  .back {
+    z-index: 0;
+  border-left: 4px solid rgb(228, 213, 0);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .frontContent,
@@ -145,43 +145,37 @@ transform: rotateY(-180deg);
 #p1 .front .html{
     background-image: url(../img/Html\ Quiz.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 /* // css3  */
 #p1 .front .css3{
     background-image: url(../img/css3.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 /* // cpp  */
 #p1 .front .cpp{
     background-image: url(../img/cpp.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 /* // js  */
 #p1 .front .js{
     background-image: url(../img/js.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 /* // Ts  */
 #p1 .front .ts{
     background-image: url(../img/ts.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 /* // react  */
 #p1 .front .react{
     background-image: url(../img/react.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position:inherit;
 }
 
 
@@ -191,8 +185,11 @@ transform: rotateY(-180deg);
     font-size: 1rem;
     letter-spacing: 1px;
     word-spacing: 4px;
-    line-height: 30px;
+    line-height: 28px;
+    cursor: pointer;
 }
+/* //js quiz / */
+
 /* //quizbtn  */
 #quizSubmitBtn{
     text-align: center;

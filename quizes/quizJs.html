@@ -22,9 +22,9 @@
       <!-- // logo side ended  -->
 
       <!-- // main content of page  -->
-       <div id="quizHeading">
+      <div id="quizHeading">
         <p id="htmlChangingText">dasdad</p>
-       </div>
+      </div>
       <div id="quizSec">
         <!-- // previous btn  -->
         <button id="preBtn">
@@ -44,7 +44,100 @@
             <!-- // backpage  -->
             <div class="back">
               <div id="b1" class="backContent">
-                <p>backContent b1</p>
+                <!-- <p>backContent b1</p> -->
+                <!-- js1  -->
+                <div id="js1" class="mcqs">
+                  <h3>
+                    1. Which statement correctly generates numbers from 1 to 5
+                    in a loop?
+                  </h3>
+
+                  <input
+                    type="radio"
+                    id="js1_option1"
+                    name="js1"
+                    value="for (let i = 1; i <= 5; i++) { console.log(i); }"
+                  />
+                  <label for="js1_option1"
+                    >for (let i = 1; i <= 5; i++) { console.log(i); }</label
+                  ><br />
+
+                  <input
+                    type="radio"
+                    id="js1_option2"
+                    name="js1"
+                    value="for (let i = 1; i < 5; i++) { console.log(i); }"
+                  />
+                  <label for="js1_option2"
+                    >for (let i = 1; i < 5; i++) { console.log(i); }</label
+                  ><br />
+
+                  <input
+                    type="radio"
+                    id="js1_option3"
+                    name="js1"
+                    value="for (let i = 0; i < 5; i++) { console.log(i); }"
+                  />
+                  <label for="js1_option3"
+                    >for (let i = 0; i < 5; i++) { console.log(i); }</label
+                  ><br />
+
+                  <input
+                    type="radio"
+                    id="js1_option4"
+                    name="js1"
+                    value="for (let i = 0; i <= 5; i++) { console.log(i); }"
+                  />
+                  <label for="js1_option4"
+                    >for (let i = 0; i <= 5; i++) { console.log(i); }</label
+                  ><br />
+                </div>
+                <!-- js2  -->
+                <div id="js2" class="mcqs">
+                  <h3>2. What will be the output of the following code?</h3>
+                  <pre>
+                    for (let i = 0; i < 2; i++) {
+                        for (let j = 0; j < 3; j++) {
+                            console.log(i + ',' + j);
+                        }
+                    }
+                    </pre
+                  >
+
+                  <input
+                    type="radio"
+                    id="js2_option1"
+                    name="js2"
+                    value="0,0 0,1 0,2 1,0 1,1 1,2"
+                  />
+                  <label for="js2_option1">0,0 0,1 0,2 1,0 1,1 1,2</label><br />
+
+                  <input
+                    type="radio"
+                    id="js2_option2"
+                    name="js2"
+                    value="0,0 0,1 0,2 1,0 1,1"
+                  />
+                  <label for="js2_option2">0,0 0,1 0,2 1,0 1,1</label><br />
+
+                  <input
+                    type="radio"
+                    id="js2_option3"
+                    name="js2"
+                    value="0,0 1,0 2,0 3,0 0,1 1,1"
+                  />
+                  <label for="js2_option3">0,0 1,0 2,0 3,0 0,1 1,1</label><br />
+
+                  <input
+                    type="radio"
+                    id="js2_option4"
+                    name="js2"
+                    value="Error"
+                  />
+                  <label for="js2_option4">Error</label><br />
+                </div>
+                <!-- js3  -->
+                <div id="js3" class="js"></div>
               </div>
             </div>
           </div>
@@ -54,13 +147,217 @@
             <!-- //front page  -->
             <div class="front">
               <div id="f2" class="frontContent">
-                <p>front content f2</p>
+                <!-- <p>front content f2</p> -->
+                <!-- js3 -->
+                <div id="js3" class="mcqs">
+                  <h3>3. What is the output of the following function call?</h3>
+                  <pre>
+                    function add(a, b) {
+                        return a + b;
+                    }
+                    console.log(add(2, '3'));
+                    </pre
+                  >
+
+                  <input type="radio" id="js3_option1" name="js3" value="23" />
+                  <label for="js3_option1">23</label><br />
+
+                  <input type="radio" id="js3_option2" name="js3" value="5" />
+                  <label for="js3_option2">5</label><br />
+
+                  <input
+                    type="radio"
+                    id="js3_option3"
+                    name="js3"
+                    value="TypeError"
+                  />
+                  <label for="js3_option3">TypeError</label><br />
+
+                  <input
+                    type="radio"
+                    id="js3_option4"
+                    name="js3"
+                    value="undefined"
+                  />
+                  <label for="js3_option4">undefined</label><br />
+                </div>
+                <!-- js4  -->
+                <div id="js4" class="mcqs">
+                  <h3>4. What will be the output of the following code?</h3>
+                  <pre>
+                    const person = {
+                        name: "Alice",
+                        age: 25,
+                        greet: function() {
+                            return "Hello, " + this.name;
+                        }
+                    };
+                    console.log(person.greet());
+                    </pre
+                  >
+
+                  <input
+                    type="radio"
+                    id="js4_option1"
+                    name="js4"
+                    value="Hello, Alice"
+                  />
+                  <label for="js4_option1">Hello, Alice</label><br />
+
+                  <input
+                    type="radio"
+                    id="js4_option2"
+                    name="js4"
+                    value="Hello, undefined"
+                  />
+                  <label for="js4_option2">Hello, undefined</label><br />
+
+                  <input
+                    type="radio"
+                    id="js4_option3"
+                    name="js4"
+                    value="Hello, [object Object]"
+                  />
+                  <label for="js4_option3">Hello, [object Object]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js4_option4"
+                    name="js4"
+                    value="Error"
+                  />
+                  <label for="js4_option4">Error</label><br />
+                </div>
               </div>
             </div>
             <!-- // backpage  -->
             <div class="back">
               <div id="b2" class="backContent">
-                <p>backContent b2</p>
+                <!-- <p>backContent b2</p> -->
+                <!-- //5  -->
+                <div id="js5" class="mcqs">
+                  <h3>5. What will be the output of the following code?</h3>
+                  <pre>
+                  const numbers = [1, 2, 3, 4, 5];
+                  const result = numbers.map(num => num * 2);
+                  console.log(result);
+                  </pre>
+
+                  <input
+                    type="radio"
+                    id="js5_option1"
+                    name="js5"
+                    value="[2, 4, 6, 8, 10]"
+                  />
+                  <label for="js5_option1">[2, 4, 6, 8, 10]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js5_option2"
+                    name="js5"
+                    value="[1, 2, 3, 4, 5, 2, 4, 6, 8, 10]"
+                  />
+                  <label for="js5_option2"
+                    >[1, 2, 3, 4, 5, 2, 4, 6, 8, 10]</label
+                  ><br />
+
+                  <input
+                    type="radio"
+                    id="js5_option3"
+                    name="js5"
+                    value="[1, 2, 3, 4, 5]"
+                  />
+                  <label for="js5_option3">[1, 2, 3, 4, 5]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js5_option4"
+                    name="js5"
+                    value="[3, 6, 9, 12, 15]"
+                  />
+                  <label for="js5_option4">[3, 6, 9, 12, 15]</label><br />
+                </div>
+                <!-- /mcqs6  -->
+                <div id="js6" class="mcqs">
+                  <h3>6. What will be the output of the following code?</h3>
+                  <pre>
+                    const arr = [1, 2, 3, 4, 5];
+                    const result = arr.filter(num => num % 2 === 0);
+                    console.log(result);
+                    </pre
+                  >
+
+                  <input
+                    type="radio"
+                    id="js6_option1"
+                    name="js6"
+                    value="[2, 4]"
+                  />
+                  <label for="js6_option1">[2, 4]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js6_option2"
+                    name="js6"
+                    value="[1, 3, 5]"
+                  />
+                  <label for="js6_option2">[1, 3, 5]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js6_option3"
+                    name="js6"
+                    value="[1, 2, 3, 4, 5]"
+                  />
+                  <label for="js6_option3">[1, 2, 3, 4, 5]</label><br />
+
+                  <input
+                    type="radio"
+                    id="js6_option4"
+                    name="js6"
+                    value="[1, 4, 5]"
+                  />
+                  <label for="js6_option4">[1, 4, 5]</label><br />
+                </div>
+                <!-- //js 7  -->
+                <div id="js7" class="mcqs">
+                  <h3>
+                    7. Which method is used to display an alert box in the
+                    browser?
+                  </h3>
+
+                  <input
+                    type="radio"
+                    id="js7_option1"
+                    name="js7"
+                    value="window.alert()"
+                  />
+                  <label for="js7_option1">window.alert()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js7_option2"
+                    name="js7"
+                    value="window.message()"
+                  />
+                  <label for="js7_option2">window.message()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js7_option3"
+                    name="js7"
+                    value="window.notify()"
+                  />
+                  <label for="js7_option3">window.notify()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js7_option4"
+                    name="js7"
+                    value="window.popup()"
+                  />
+                  <label for="js7_option4">window.popup()</label><br />
+                </div>
               </div>
             </div>
           </div>
@@ -70,13 +367,179 @@
             <!-- //front page  -->
             <div class="front">
               <div id="f3" class="frontContent">
-                <p>front content f3</p>
+                <!-- <p>front content f3</p> -->
+                <!-- // js8  -->
+                <div id="js8" class="mcqs">
+                  <h3>
+                    8. Which event is triggered when the content of an element
+                    is changed by the user?
+                  </h3>
+
+                  <input
+                    type="radio"
+                    id="js8_option1"
+                    name="js8"
+                    value="onchange"
+                  />
+                  <label for="js8_option1">onchange</label><br />
+
+                  <input
+                    type="radio"
+                    id="js8_option2"
+                    name="js8"
+                    value="oninput"
+                  />
+                  <label for="js8_option2">oninput</label><br />
+
+                  <input
+                    type="radio"
+                    id="js8_option3"
+                    name="js8"
+                    value="onclick"
+                  />
+                  <label for="js8_option3">onclick</label><br />
+
+                  <input
+                    type="radio"
+                    id="js8_option4"
+                    name="js8"
+                    value="onmouseover"
+                  />
+                  <label for="js8_option4">onmouseover</label><br />
+                </div>
+                <!-- //js 9  -->
+                <div id="js9" class="mcqs">
+                  <h3>
+                    9. Which event is triggered when the user presses a key on
+                    the keyboard?
+                  </h3>
+
+                  <input
+                    type="radio"
+                    id="js9_option1"
+                    name="js9"
+                    value="onkeypress"
+                  />
+                  <label for="js9_option1">onkeypress</label><br />
+
+                  <input
+                    type="radio"
+                    id="js9_option2"
+                    name="js9"
+                    value="onkeydown"
+                  />
+                  <label for="js9_option2">onkeydown</label><br />
+
+                  <input
+                    type="radio"
+                    id="js9_option3"
+                    name="js9"
+                    value="onkeyup"
+                  />
+                  <label for="js9_option3">onkeyup</label><br />
+
+                  <input
+                    type="radio"
+                    id="js9_option4"
+                    name="js9"
+                    value="oninput"
+                  />
+                  <label for="js9_option4">oninput</label><br />
+                </div>
+                <!-- // js10  -->
+                <div id="js10" class="mcqs">
+                  <h3>
+                    10. Which of the following methods adds an event listener to
+                    an element?
+                  </h3>
+
+                  <input
+                    type="radio"
+                    id="js10_option1"
+                    name="js10"
+                    value="addEvent()"
+                  />
+                  <label for="js10_option1">addEvent()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js10_option2"
+                    name="js10"
+                    value="addListener()"
+                  />
+                  <label for="js10_option2">addListener()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js10_option3"
+                    name="js10"
+                    value="addEventListener()"
+                  />
+                  <label for="js10_option3">addEventListener()</label><br />
+
+                  <input
+                    type="radio"
+                    id="js10_option4"
+                    name="js10"
+                    value="attachEvent()"
+                  />
+                  <label for="js10_option4">attachEvent()</label><br />
+                </div>
               </div>
             </div>
             <!-- // backpage  -->
             <div class="back">
               <div id="b3" class="backContent">
-                <p>backContent b3</p>
+                <!-- <p>backContent b3</p> -->
+                 <!-- // js11 -->
+<div id="js11" class="mcqs">
+  <h3>11. Which event is triggered when the user moves the mouse over an element?</h3>
+  
+  <input type="radio" id="js11_option1" name="js11" value="onhover">
+  <label for="js11_option1">onhover</label><br>
+  
+  <input type="radio" id="js11_option2" name="js11" value="onmouseenter">
+  <label for="js11_option2">onmouseenter</label><br>
+  
+  <input type="radio" id="js11_option3" name="js11" value="onmouseover">
+  <label for="js11_option3">onmouseover</label><br>
+  
+  <input type="radio" id="js11_option4" name="js11" value="onmove">
+  <label for="js11_option4">onmove</label><br>
+</div>
+<!-- // js12 -->
+<div id="js12" class="mcqs">
+  <h3>12. Which event is triggered when the user releases a mouse button over an element?</h3>
+  
+  <input type="radio" id="js12_option1" name="js12" value="onmousedown">
+  <label for="js12_option1">onmousedown</label><br>
+  
+  <input type="radio" id="js12_option2" name="js12" value="onmouseup">
+  <label for="js12_option2">onmouseup</label><br>
+  
+  <input type="radio" id="js12_option3" name="js12" value="onclick">
+  <label for="js12_option3">onclick</label><br>
+  
+  <input type="radio" id="js12_option4" name="js12" value="ondrop">
+  <label for="js12_option4">ondrop</label><br>
+</div>
+<!-- // js13 -->
+<div id="js13" class="mcqs">
+  <h3>13. Which method stops the event from propagating further?</h3>
+  
+  <input type="radio" id="js13_option1" name="js13" value="event.stopPropagation()">
+  <label for="js13_option1">event.stopPropagation()</label><br>
+  
+  <input type="radio" id="js13_option2" name="js13" value="event.preventDefault()">
+  <label for="js13_option2">event.preventDefault()</label><br>
+  
+  <input type="radio" id="js13_option3" name="js13" value="event.stopImmediatePropagation()">
+  <label for="js13_option3">event.stopImmediatePropagation()</label><br>
+  
+  <input type="radio" id="js13_option4" name="js13" value="event.cancelBubble()">
+  <label for="js13_option4">event.cancelBubble()</label><br>
+</div>
+
               </div>
             </div>
           </div>
@@ -86,13 +549,112 @@
             <!-- //front page  -->
             <div class="front">
               <div id="f4" class="frontContent">
-                <p>front content f4</p>
+                <!-- <p>front content f4</p> -->
+                 <!-- // js14 -->
+<div id="js14" class="mcqs">
+  <h3>14. Which JavaScript method can be used to delay the execution of a function?</h3>
+  
+  <input type="radio" id="js14_option1" name="js14" value="delayFunction()">
+  <label for="js14_option1">delayFunction()</label><br>
+  
+  <input type="radio" id="js14_option2" name="js14" value="setTimeout()">
+  <label for="js14_option2">setTimeout()</label><br>
+  
+  <input type="radio" id="js14_option3" name="js14" value="waitFunction()">
+  <label for="js14_option3">waitFunction()</label><br>
+  
+  <input type="radio" id="js14_option4" name="js14" value="delayExecution()">
+  <label for="js14_option4">delayExecution()</label><br>
+</div>
+<!-- // js15 -->
+<div id="js15" class="mcqs">
+  <h3>15. How can you select an element by its ID in JavaScript?</h3>
+  
+  <input type="radio" id="js15_option1" name="js15" value="document.getElementById('myId')">
+  <label for="js15_option1">document.getElementById('myId')</label><br>
+  
+  <input type="radio" id="js15_option2" name="js15" value="document.querySelector('#myId')">
+  <label for="js15_option2">document.querySelector('#myId')</label><br>
+  
+  <input type="radio" id="js15_option3" name="js15" value="document.getElement('myId')">
+  <label for="js15_option3">document.getElement('myId')</label><br>
+  
+  <input type="radio" id="js15_option4" name="js15" value="document.getNode('myId')">
+  <label for="js15_option4">document.getNode('myId')</label><br>
+</div>
+<!-- // js16 -->
+<div id="js16" class="mcqs">
+  <h3>16. Which method is used to remove a child node from the DOM?</h3>
+  
+  <input type="radio" id="js16_option1" name="js16" value="removeChild()">
+  <label for="js16_option1">removeChild()</label><br>
+  
+  <input type="radio" id="js16_option2" name="js16" value="deleteChild()">
+  <label for="js16_option2">deleteChild()</label><br>
+  
+  <input type="radio" id="js16_option3" name="js16" value="removeNode()">
+  <label for="js16_option3">removeNode()</label><br>
+  
+  <input type="radio" id="js16_option4" name="js16" value="deleteNode()">
+  <label for="js16_option4">deleteNode()</label><br>
+</div>
               </div>
             </div>
             <!-- // backpage  -->
             <div class="back">
               <div id="b4" class="backContent">
-                <p>backContent b4</p>
+                <!-- <p>backContent b4</p> -->
+                 <!-- // js17 -->
+<div id="js17" class="mcqs">
+  <h3>17. What will be the output of the following code?</h3>
+  <pre>
+  const fruit = 'apple';
+  let result;
+  switch (fruit) {
+      case 'banana':
+          result = 'Banana is yellow';
+          break;
+      case 'apple':
+          result = 'Apple is red';
+          break;
+      case 'grape':
+          result = 'Grape is purple';
+          break;
+      default:
+          result = 'Unknown fruit';
+  }
+  console.log(result);
+  </pre>
+  
+  <input type="radio" id="js17_option1" name="js17" value="Banana is yellow">
+  <label for="js17_option1">Banana is yellow</label><br>
+  
+  <input type="radio" id="js17_option2" name="js17" value="Apple is red">
+  <label for="js17_option2">Apple is red</label><br>
+  
+  <input type="radio" id="js17_option3" name="js17" value="Grape is purple">
+  <label for="js17_option3">Grape is purple</label><br>
+  
+  <input type="radio" id="js17_option4" name="js17" value="Unknown fruit">
+  <label for="js17_option4">Unknown fruit</label><br>
+</div>
+<!-- // js18 -->
+<div id="js18" class="mcqs">
+  <h3>18. What is the purpose of the try...catch statement in JavaScript?</h3>
+  
+  <input type="radio" id="js18_option1" name="js18" value="To handle errors and exceptions">
+  <label for="js18_option1">To handle errors and exceptions</label><br>
+  
+  <input type="radio" id="js18_option2" name="js18" value="To execute code repeatedly">
+  <label for="js18_option2">To execute code repeatedly</label><br>
+  
+  <input type="radio" id="js18_option3" name="js18" value="To declare variables">
+  <label for="js18_option3">To declare variables</label><br>
+  
+  <input type="radio" id="js18_option4" name="js18" value="To define functions">
+  <label for="js18_option4">To define functions</label><br>
+</div>
+
               </div>
             </div>
           </div>
@@ -102,13 +664,82 @@
             <!-- //front page  -->
             <div class="front">
               <div id="f5" class="frontContent">
-                <p>front content f5</p>
+                <!-- <p>front content f5</p> -->
+                 <!-- // js19 -->
+<div id="js19" class="mcqs">
+  <h3>19. What does the isNaN() function do in JavaScript?</h3>
+  
+  <input type="radio" id="js19_option1" name="js19" value="Checks if a value is not a number">
+  <label for="js19_option1">Checks if a value is not a number</label><br>
+  
+  <input type="radio" id="js19_option2" name="js19" value="Checks if a value is null">
+  <label for="js19_option2">Checks if a value is null</label><br>
+  
+  <input type="radio" id="js19_option3" name="js19" value="Checks if a value is undefined">
+  <label for="js19_option3">Checks if a value is undefined</label><br>
+  
+  <input type="radio" id="js19_option4" name="js19" value="Checks if a value is an integer">
+  <label for="js19_option4">Checks if a value is an integer</label><br>
+</div>
+<!-- // js20 -->
+<div id="js20" class="mcqs">
+  <h3>20. What does the fetch() method in JavaScript do?</h3>
+  
+  <input type="radio" id="js20_option1" name="js20" value="Fetches resources asynchronously from the network">
+  <label for="js20_option1">Fetches resources asynchronously from the network</label><br>
+  
+  <input type="radio" id="js20_option2" name="js20" value="Fetches resources synchronously from the network">
+  <label for="js20_option2">Fetches resources synchronously from the network</label><br>
+  
+  <input type="radio" id="js20_option3" name="js20" value="Fetches resources from the local file system">
+  <label for="js20_option3">Fetches resources from the local file system</label><br>
+  
+  <input type="radio" id="js20_option4" name="js20" value="Fetches resources from the browser cache">
+  <label for="js20_option4">Fetches resources from the browser cache</label><br>
+</div>
+<!-- // js21 -->
+<div id="js21" class="mcqs">
+  <h3>21. Which method is used to convert a JSON string into a JavaScript object?</h3>
+  
+  <input type="radio" id="js21_option1" name="js21" value="JSON.parse()">
+  <label for="js21_option1">JSON.parse()</label><br>
+  
+  <input type="radio" id="js21_option2" name="js21" value="JSON.stringify()">
+  <label for="js21_option2">JSON.stringify()</label><br>
+  
+  <input type="radio" id="js21_option3" name="js21" value="JSON.convert()">
+  <label for="js21_option3">JSON.convert()</label><br>
+  
+  <input type="radio" id="js21_option4" name="js21" value="JSON.toObject()">
+  <label for="js21_option4">JSON.toObject()</label><br>
+</div>
               </div>
             </div>
             <!-- // backpage  -->
             <div class="back">
               <div id="b5" class="backContent">
-                <p>backContent b5</p>
+                <!-- <p>backContent b5</p> -->
+<!-- // js22 -->
+<div id="js22" class="mcqs">
+  <h3>22. Which JavaScript code snippet swaps the values of variables <code>a</code> and <code>b</code>?</h3>
+  
+  <input type="radio" id="js22_option1" name="js22" value="a = a + b; b = a - b; a = a - b;">
+  <label for="js22_option1">a = a + b; b = a - b; a = a - b;</label><br>
+  
+  <input type="radio" id="js22_option2" name="js22" value="[a, b] = [b, a];">
+  <label for="js22_option2">[a, b] = [b, a];</label><br>
+  
+  <input type="radio" id="js22_option3" name="js22" value="a = b; b = a;">
+  <label for="js22_option3">a = b; b = a;</label><br>
+  
+  <input type="radio" id="js22_option4" name="js22" value="a = a ^ b; b = a ^ b; a = a ^ b;">
+  <label for="js22_option4">a = a ^ b; b = a ^ b; a = a ^ b;</label><br>
+</div>
+
+<!-- // js quiz btn  -->
+<div id="quizSubmitBtn">
+  <button type="submit" id="suggestionsBtn">Result</button>
+</div>
               </div>
             </div>
           </div>
